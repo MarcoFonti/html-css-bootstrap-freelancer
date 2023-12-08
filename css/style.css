@@ -1,0 +1,29 @@
+/* Altezza Header */
+.he-90 {
+    height: 90px;
+    background-color: #2C3E50 ;
+}
+
+/* Altezza Contenuto */
+.he-60 {
+    height: 60px;
+    background-color: bisque;
+}
+
+/* Logo */
+.logo {
+    width: 250px;
+}
+
+/* Lista */
+.list {
+    width: 60px;
+}
+
+
+/* ? Media Query */
+@media screen and (min-width:720px) {
+    .list {
+        width: 300px;
+    }
+}
