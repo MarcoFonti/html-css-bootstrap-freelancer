@@ -1,13 +1,13 @@
-/* Altezza Header */
-.he-90 {
+/* Recipiente Header */
+.recipe-navbar {
     height: 90px;
     background-color: #2C3E50 ;
 }
 
-/* Altezza Contenuto */
+/* Altezza Contenuto Header */
 .he-60 {
     height: 60px;
-    background-color: bisque;
+    background-color: #ffffff;
 }
 
 /* Logo */
@@ -20,9 +20,77 @@
     width: 60px;
 }
 
+/* Recipiente Professioni */
+.recipe-professions {
+    background-color: #1ABC9C
+}
+
+/* Immagine */
+.he-200 {
+    height: 200px;
+    background-color: #2C3E50;
+    width: 50%;
+    margin:0 auto;
+}
+
+/* Strat bootstarp */
+.he-70 {
+    height: 70px;
+    background-color: #ffffff;
+}
+
+/* Riga Professioni */
+.dash-professions {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Professioni */
+.he-50 {
+    background-color: #ffffff;
+    height: 50px;
+}
+
+
+
+
+
+
+
+.he-500 {
+    height: 300px;
+    background-color: rgb(0, 255, 72);
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+
+.h1-60 {
+    height: 60px;
+    width: 100px;
+    background-color: aliceblue;
+}
+
+.dash {
+    height: 50px;
+    width: 150px;
+    background-color: aliceblue;
+}
+
+
+.card {
+    height: 300px;
+    background-color: black;
+    border: 1px solid red;
+}
+
+
+
+
 
 /* ? Media Query */
-@media screen and (min-width:720px) {
+@media screen and (min-width:768px) {
+    /* Grandezza Link della lista hamburger */
     .list {
         width: 300px;
     }
