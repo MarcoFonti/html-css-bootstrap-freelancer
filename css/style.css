@@ -116,6 +116,9 @@
     background-color: #2C3E50;
 }
 
+.recipe-footer {
+    background-color: #140F0F;
+}
 
 /* ? Media Query */
 @media screen and (min-width:768px) {
