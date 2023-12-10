@@ -107,6 +107,11 @@
     background-color: #ffffff;
 }
 
+.text-contact {
+    min-height: 200px;
+    background-color: #2C3E50;
+}
+
 
 
 /* ? Media Query */
