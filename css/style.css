@@ -1,13 +1,31 @@
-/* Recipiente Header */
-.recipe-navbar {
-    min-height: 90px;
-    background-color: #2C3E50 ;
+/* COLORI */
+.color-2C3E50 {
+    background-color: #2C3E50;
 }
 
-/* Altezza Contenuto Header */
-.he-60 {
-    min-height: 60px;
+.color-green {
+    background-color: #1ABC9C;
+}
+
+.color-white {
     background-color: #ffffff;
+}
+
+.color-black {
+    background-color: #000000;
+}
+
+.color-blu {
+    background-color: #3A546D;
+}
+
+/* Altezza Header e Footer */
+.he-90 {
+    min-height: 90px;
+}
+
+.he-50 {
+    min-height: 50px;
 }
 
 /* Logo */
@@ -20,47 +38,36 @@
     width: 60px;
 }
 
-/* Recipiente Professioni e Recipiente About */
-.recipe-professions,
-.recipe-about {
-    background-color: #1ABC9C
+/* Altezza */
+.he-90 {
+    min-height: 90px;
+}
+
+.he-50 {
+    min-height: 50px;
+}
+
+.he-80 {
+    min-height: 80px;
+}
+
+.dash {
+    min-height: 40px;
+}
+
+.he-60 {
+    min-height: 60px;
+}
+
+.he-400 {
+    min-height: 400px;
 }
 
 /* Immagine */
 .he-200 {
     min-height: 200px;
-    min-width: 200px;
+    width: 200px;
     background-color: #2C3E50;
-}
-
-/* Strat bootstarp */
-.he-70 {
-    min-height: 70px;
-    background-color: #ffffff;
-}
-
-/* Riga Professioni */
-.dash-professions {
-    min-height: 30px;
-    background-color: #ffffff;
-}
-
-/* Professioni */
-.he-50 {
-    background-color: #ffffff;
-    min-height: 50px;
-}
-
-/* Titolo Portafoglio */
-.h1-60 {
-    min-height: 60px;
-    background-color: #000000;
-}
-
-/* Riga portafoglio */
-.dash {
-    min-height: 30px;
-    background-color: #000000;
 }
 
 /* Card */
@@ -97,28 +104,11 @@
 .border-r {
     height: 250px;
     width: 250px;
-    background-color: #ffa500;
+    background-color: #ffffff46;
     margin: auto;
     border-radius: 50%;
 }
 
-.text-about {
-    min-height: 500px;
-    background-color: #ffffff;
-}
-
-.text-contact {
-    min-height: 200px;
-    background-color: #2C3E50;
-}
-
-.recipe-location {
-    background-color: #2C3E50;
-}
-
-.recipe-footer {
-    background-color: #140F0F;
-}
 
 /* ? Media Query */
 @media screen and (min-width:768px) {
