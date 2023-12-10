@@ -1,12 +1,12 @@
 /* Recipiente Header */
 .recipe-navbar {
-    height: 90px;
+    min-height: 90px;
     background-color: #2C3E50 ;
 }
 
 /* Altezza Contenuto Header */
 .he-60 {
-    height: 60px;
+    min-height: 60px;
     background-color: #ffffff;
 }
 
@@ -20,70 +20,52 @@
     width: 60px;
 }
 
-/* Recipiente Professioni */
-.recipe-professions {
+/* Recipiente Professioni e Recipiente About */
+.recipe-professions,
+.recipe-about {
     background-color: #1ABC9C
 }
 
 /* Immagine */
 .he-200 {
-    height: 200px;
+    min-height: 200px;
+    min-width: 200px;
     background-color: #2C3E50;
-    width: 200px;
 }
 
 /* Strat bootstarp */
 .he-70 {
-    height: 70px;
-    width: 80%;
+    min-height: 70px;
     background-color: #ffffff;
 }
 
 /* Riga Professioni */
 .dash-professions {
-    height: 30px;
-    width: 50%;
+    min-height: 30px;
     background-color: #ffffff;
 }
 
 /* Professioni */
 .he-50 {
     background-color: #ffffff;
-    height: 50px;
-    width: 100%;
+    min-height: 50px;
 }
 
 /* Titolo Portafoglio */
 .h1-60 {
-    height: 60px;
-    width: 30%;
+    min-height: 60px;
     background-color: #000000;
 }
 
 /* Riga portafoglio */
 .dash {
-    height: 30px;
-    width: 50%;
-    background-color: #000000;
-}
-
-/* Titolo Portafoglio */
-.h1-60 {
-    height: 60px;
-    width: 30%;
-    background-color: #000000;
-}
-
-/* Riga Portafoglio */
-.dash {
-    height: 30px;
-    width: 50%;
+    min-height: 30px;
     background-color: #000000;
 }
 
 /* Card */
 .card {
-    height: 300px;
+    min-height: 300px;
 }
 
 /* Colori Card */
@@ -115,9 +97,14 @@
 .border-r {
     height: 250px;
     width: 250px;
-    background-color:  #ffa500;
+    background-color: #ffa500;
     margin: auto;
     border-radius: 50%;
+}
+
+.text-about {
+    min-height: 500px;
+    background-color: #ffffff;
 }
 
 
