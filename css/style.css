@@ -1,3 +1,20 @@
+/* ? Utility */
+
+body {
+    color: #ffffff;
+}
+
+/* Immagini */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.fs-my {
+    font-size: 50px;
+}
+
+
 /* COLORI SFONDI */
 .color-2C3E50 {
     background-color: #2C3E50;
@@ -11,12 +28,15 @@
     background-color: #3A546D;
 }
 
+/* Link */
 .my-navbar a {
     color: #ffffff;
-    text-transform: uppercase;  
+    
 }
 
-
+.recipe-avatar {
+    width: 300px;
+}
 
 
 
@@ -35,15 +55,7 @@
     min-height: 50px;
 }
 
-/* Logo */
-.logo {
-    width: 250px;
-}
 
-/* Lista */
-.list {
-    width: 60px;
-}
 
 /* Altezza */
 .he-90 {
@@ -59,7 +71,9 @@
 }
 
 .dash {
-    min-height: 40px;
+    height: 3px;
+    width: 100px;
+    background-color: #ffffff;
 }
 
 .he-60 {
@@ -70,12 +84,7 @@
     min-height: 400px;
 }
 
-/* Immagine */
-.he-200 {
-    min-height: 200px;
-    width: 200px;
-    background-color: #2C3E50;
-}
+
 
 /* Card */
 .card {

@@ -6,6 +6,8 @@
     <title>Bootstrap</title>
     <!-- Link Icona -->
     <link rel="icon" href="layouts/Icona.jpeg">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Link Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- Link CSS -->
@@ -14,14 +16,14 @@
 <body>
     <!-- Header -->
     <header class="recipe-navbar">
-        <nav class="my-navbar navbar navbar-expand-md color-2C3E50 py-4 ">
-            <div class="container-md">
-                <a class="navbar-brand fw-bold fs-3" href="#">start bootstrap</a>
+        <nav class="my-navbar navbar navbar-expand-md py-4 color-2C3E50 ">
+            <div class="container-md text-uppercase">
+                <a class="navbar-brand fw-bold fs-3 text-Up" href="#">start bootstrap</a>
                 <button class="navbar-toggler my-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                    <div class="navbar-nav ">
                         <a class="nav-link" href="#">portafolio</a>
                         <a class="nav-link" href="#">about</a>
                         <a class="nav-link" href="#">contact</a>
@@ -31,12 +33,20 @@
         </nav>
     </header>
     <!-- Le miei Professioni -->
-    <section class="recipe-professions color-green container-fluid d-flex justify-content-center align-items-center py-5">
-        <div class="row flex-column justify-content-center align-items-center row-gap-3 w-50">
-            <figure class="he-200"></figure>
-            <h1 class="col-5 he-80 color-white"></h1>
-            <div class="col-3 dash color-white"></div>
-            <address class="col-10 he-60 color-white"></address>
+    <section class="recipe-professions container-fluid py-5 color-green">
+        <div class="row flex-column justify-content-center align-items-center text-uppercase text-center row-gap-3">
+            <figure class="recipe-avatar">
+                <img src="layouts/bootstrap_freelancer/img/avatar.svg" alt="Avatar">
+            </figure>
+            <h1 class="col-10 fs-my">start bootstrap</h1>
+            <div class="col d-flex align-items-center justify-content-center">
+                <div class="dash"></div>
+                <i class="fa-solid fa-star fa-2x mx-1"></i>
+                <div class="dash"></div>
+            </div>
+            <address class="col-12 fs-3 ">
+                <span>graphic artist - web designer - illustrator</span>
+            </address>
         </div>
     </section>
     <!-- Recipiente Portafoglio -->
