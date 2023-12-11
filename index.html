@@ -114,40 +114,44 @@
             </p>
         </div>
         <div class="col text-center">
-            <button class="about-button"><i class="fa-solid fa-download"></i> Download</button>
+            <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
         </div>
     </section>
     <!-- Sezione Contatti -->
     <section class="recipe-contact container-md p-5">
-        <div class="row flex-column align-items-center justify-content-center row-gap-3 mb-5">
-            <h1 class="col-4 he-80 color-black"></h1>
-            <div class="col-3 dash color-black"></div>
-        </div>
-        <div class="row flex-column row-gap-3 ">
-            <div class="col-12 he-60 color-black"></div>
-            <div class="col-12 he-60 color-black"></div>
-            <div class="col-12 he-60 color-black"></div>
-            <div class="col-12 he-400 border border-black"></div>
-            <button class="col-2 he-60 color-green"></button>
-        </div>
+        <form action="#">
+            <div>
+                <label for="firstName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Marco">
+            </div>
+            <div>
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="marco_fonti@Gmail.com">
+            </div>
+            <div>
+                <label for="phone" class="form-label">Email address</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+            </div>
+            <div class="mb-5">
+                <label for="message" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="message" rows="10" placeholder="Message"></textarea>
+            </div>
+            <button type="button" class="btn btn-success">Send</button>
+        </form>
     </section>
     <!-- Sezione Info -->
     <section class="recipe-location color-blu container-fluid py-5 ">
-        <div class="row row-cols-1 row-cols-md-3 flex-column justify-content-center align-items-center row-gap-5 flex-md-row">
-            <div class="row flex-column justify-content-center align-items-center row-gap-3">
-                <h2 class="col-3 he-60 color-white"></h2>
-                <address class="col-8 he-60 color-white"></address>
-            </div>
-            <div class="row flex-column justify-content-center align-items-center row-gap-3">
-                <h2 class="col-4 he-60 color-white"></h2>
-                <nav class="col-6 he-80 color-white"></nav>
-            </div>
-            <div class="row flex-column justify-content-center align-items-center row-gap-3">
-                <h2 class="col-4 he-60 color-white"></h2>
-                <p class="col-12 he-60 color-white"></p>
-            </div>
-        </div>
-    </section>
+        <form action="#">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+        </form>
+    </section>          
     <!-- Footer -->
     <footer class="recipe-footer he-90 color-2C3E50 container-fluid">
         <div class="row align-content-center justify-content-center py-5">
