@@ -14,6 +14,18 @@ img {
     font-size: 50px;
 }
 
+.dash {
+    height: 3px;
+    width: 100px;
+}
+
+.dash-white {
+    background-color: #ffffff;
+}
+
+.dash-black {
+    background-color: #000000;
+}
 
 /* COLORI SFONDI */
 .color-2C3E50 {
@@ -34,10 +46,15 @@ img {
     
 }
 
+/* Recipiente Immagine Avatar */
 .recipe-avatar {
     width: 300px;
 }
 
+/* Testo Nero */
+.text-black {
+    color: #000000;
+}
 
 
 
@@ -70,11 +87,7 @@ img {
     min-height: 80px;
 }
 
-.dash {
-    height: 3px;
-    width: 100px;
-    background-color: #ffffff;
-}
+
 
 .he-60 {
     min-height: 60px;
@@ -116,13 +129,6 @@ img {
     background-color: #CCB2A3;
 }
 
-/* Immagini dentro alle Card */
-.border-r {
-    height: 250px;
-    width: 250px;
-    background-color: #ffffff46;
-    margin: auto;
-    border-radius: 50%;
-}
+
 
 
