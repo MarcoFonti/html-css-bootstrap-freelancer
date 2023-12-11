@@ -1,4 +1,4 @@
-/* COLORI */
+/* COLORI SFONDI */
 .color-2C3E50 {
     background-color: #2C3E50;
 }
@@ -7,17 +7,24 @@
     background-color: #1ABC9C;
 }
 
-.color-white {
-    background-color: #ffffff;
-}
-
-.color-black {
-    background-color: #000000;
-}
-
 .color-blu {
     background-color: #3A546D;
 }
+
+.my-navbar a {
+    color: #ffffff;
+    text-transform: uppercase;  
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Altezza Header e Footer */
 .he-90 {
@@ -110,10 +117,3 @@
 }
 
 
-/* ? Media Query */
-@media screen and (min-width:768px) {
-    /* Grandezza Link della lista hamburger */
-    .list {
-        width: 300px;
-    }
-}
