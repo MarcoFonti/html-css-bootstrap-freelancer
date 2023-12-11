@@ -118,7 +118,15 @@
         </div>
     </section>
     <!-- Sezione Contatti -->
-    <section class="recipe-contact container-md p-5">
+    <section class="recipe-contact container-fluid p-5">
+        <div class="text-black row flex-column text-center text-uppercase row-gap-3">
+            <h1 class="col">contact me</h1>
+            <div class="col d-flex align-items-center justify-content-center">
+                <div class="dash dash-black"></div>
+                <i class="fa-solid fa-star fa-2x mx-1"></i>
+                <div class="dash dash-black"></div>
+            </div>
+        </div>
         <form action="#">
             <div>
                 <label for="firstName" class="form-label">Name</label>
@@ -140,17 +148,28 @@
         </form>
     </section>
     <!-- Sezione Info -->
-    <section class="recipe-location color-blu container-fluid py-5 ">
-        <form action="#">
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-        </form>
+    <section class="recipe-location py-5 color-blu">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 justify-content-center text-center row-gap-4">
+                <div class="col">
+                    <h1 class="text-uppercase fs-4">locotion</h1>
+                    <address>2215 John Daniel Drive Clark, MO 54243</address>
+                </div>
+                <div class="col">
+                    <h1 class="text-uppercase fs-4">around the web</h1>
+                    <div class="d-flex justify-content-center align-items-center gap-2">
+                        <i class="fa-brands fa-facebook-f icon-social"></i>
+                        <i class="fa-brands fa-google-plus-g icon-social"></i>
+                        <i class="fa-brands fa-twitter icon-social"></i>
+                        <i class="fa-brands fa-linkedin-in icon-social"></i>
+                    </div>
+                </div>
+                <div class="col">
+                    <h1 class="text-uppercase fs-4">about freelancer</h1>
+                    <p>Freelancer is a free to use, open source Bootstrap theme created by <a class="text-success text-decoration-none" href="#">Start Bootstrap</a></p>
+                </div>
+            </div>
+        </div>
     </section>          
     <!-- Footer -->
     <footer class="recipe-footer he-90 color-2C3E50 container-fluid">
