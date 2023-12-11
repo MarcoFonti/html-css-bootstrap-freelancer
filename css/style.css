@@ -56,8 +56,14 @@ img {
     color: #000000;
 }
 
-
-
+/* Bottone About */
+.about-button {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
 
 
 
